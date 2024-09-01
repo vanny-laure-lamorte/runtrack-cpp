@@ -4,14 +4,13 @@ using namespace std;
 /* Écrire un programme en C++ qui permet d'échanger le contenu de deux
 entiers n et m saisis par l'utilisateur, puis afficher ces entiers avant et après l’échange.*/
 
-int number1; 
-int number2; 
-int storeNumber; 
 
 int main(int argc, char const *argv[])
 {
-    number1 = 10; 
-    number2 = 20; 
+
+    int number1 = 10; 
+    int number2= 20; 
+    int storeNumber; 
 
     cout << "NUMBERS BEFORE SWAP \n"; 
     cout << "Number 1: " << number1 << "\n"; 
