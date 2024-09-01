@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+/* Écrire un programme en C++ qui demande à l'utilisateur de
+taper cinq entiers et qui affiche leur moyenne. Vous êtes
+limités à deux variables */
+
 int main(int argc, char const *argv[])
 {
     int numbers; 
